@@ -1,0 +1,27 @@
+{
+  "name": "cartesi-intermediate-dapp",
+  "version": "1.0.0",
+  "description": "An intermediate Cartesi dApp backend using Cartesi Rollups APIs.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.3.1"
+  },
+  "keywords": [
+    "cartesi",
+    "rollups",
+    "dapp",
+    "backend"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
